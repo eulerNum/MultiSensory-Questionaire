@@ -1,0 +1,28 @@
+/* DrawingBoard.css */
+.drawing-board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .drawing-board-color-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .drawing-board-color-picker label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .drawing-board {
+    border: 2px solid black;
+    cursor: crosshair;
+  }
+  
